@@ -81,9 +81,14 @@ public class Main {
                 System.out.println("O valor de " + quantidade + " " + primeiraMoeda + " é equivalente a " + valorConvertido + " " + segundaMoeda);
 
             } else if (opcao >= 8) {
-                System.out.println("Você digitou uma opção invalida :(");
+                System.out.println("""
+                        Você digitou uma opção invalida :(
+                        
+                        Tente novamente
+                        """);
 
-                System.out.println("tente novamente");
+
+
 
             }
 
